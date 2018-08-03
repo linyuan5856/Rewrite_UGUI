@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using ReWriteUGUI;
 using UnityEditor;
 
-[CustomEditor(typeof(LY_Toggle), true)]
+[CustomEditor(typeof(NewToggle), true)]
 [CanEditMultipleObjects]
 public class ToggleEditor : Editor
 {
