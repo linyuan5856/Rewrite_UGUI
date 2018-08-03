@@ -55,6 +55,14 @@ namespace ReWriteUGUI
                     s_Texture_White = Texture2D.whiteTexture;
                 return s_Texture_White;
             }
+
+            set
+            {
+                if (m_MainTexture == value)
+                    return;
+                m_MainTexture = value;
+                SetMaterialDirty();
+            }
         }
 
         private Material DefaultMaterial
@@ -159,22 +167,22 @@ namespace ReWriteUGUI
         }
 
 
-        private void SetAllDirty()
+        protected void SetAllDirty()
         {
-            // Debug.LogWarning("Set All Dirty");
+            //Debug.LogWarning("Set All Dirty");
             SetLayoutDirty();
             SetVerticesDirty();
             SetMaterialDirty();
         }
 
-        private void SetLayoutDirty()
+        protected void SetLayoutDirty()
         {
             if (!IsActive())
                 return;
             LayoutRebuilder.MarkLayoutForRebuild(rectTransform);
         }
 
-        private void SetVerticesDirty()
+        protected void SetVerticesDirty()
         {
             if (!IsActive())
                 return;
@@ -182,7 +190,7 @@ namespace ReWriteUGUI
             CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(this);
         }
 
-        private void SetMaterialDirty()
+        protected void SetMaterialDirty()
         {
             if (!IsActive())
                 return;
@@ -224,6 +232,8 @@ namespace ReWriteUGUI
 
         public virtual void Rebuild(CanvasUpdate update)
         {
+            if (canvasRenderer.cull)
+                return;
             //Debug.LogWarning("Rebuild");
             switch (update)
             {
@@ -255,6 +265,8 @@ namespace ReWriteUGUI
 
         protected override void OnCanvasHierarchyChanged()
         {
+            Debug.Log("OnCanvasHierarchyChanged");
+
             mCanvas = null;
 
             if (!IsActive())
@@ -266,11 +278,15 @@ namespace ReWriteUGUI
 
         protected override void OnBeforeTransformParentChanged()
         {
+            Debug.Log("OnBeforeTransformParentChanged");
+
             LayoutRebuilder.MarkLayoutForRebuild(rectTransform);
         }
 
         protected override void OnTransformParentChanged()
         {
+            Debug.Log("OnTransformParentChanged");
+
             base.OnTransformParentChanged();
 
             mCanvas = null;
@@ -284,6 +300,7 @@ namespace ReWriteUGUI
 
         protected override void OnRectTransformDimensionsChange()
         {
+            Debug.Log("OnRectTransformDimensionsChange");
             if (gameObject.activeInHierarchy)
             {
                 if (CanvasUpdateRegistry.IsRebuildingLayout())
@@ -298,12 +315,16 @@ namespace ReWriteUGUI
 
         protected override void OnDidApplyAnimationProperties()
         {
+            Debug.Log("OnDidApplyAnimationProperties");
+
             SetAllDirty();
         }
 
 #if UNITY_EDITOR
         public virtual void OnRequestRebuild()
         {
+            Debug.Log("OnRequestRebuild");
+
             var mbs = this.GetComponents<MonoBehaviour>();
             foreach (var mb in mbs)
             {
