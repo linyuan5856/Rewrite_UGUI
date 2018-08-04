@@ -17,7 +17,7 @@ namespace ReWriteUGUI
 
             private RectTransform m_RectTransfrom;
 
-            public RectTransform rectTransform
+            public new RectTransform rectTransform
             {
                 get
                 {
@@ -91,7 +91,7 @@ namespace ReWriteUGUI
 
             private void UpdateClipParent()
             {
-                NewRectMask2D newParent = ((maskable) && IsActive()) ? NewMaskUtil.GetRectMaskForClippable(this) : null;
+                NewRectMask2D newParent = ((maskable) && IsActive()) ? NewRect2DMaskUtil.GetRectMaskForClippable(this) : null;
 
                 if (m_ParentMask != null && (newParent != m_ParentMask || !newParent.IsActive()))
                 {

@@ -65,7 +65,7 @@ namespace ReWriteUGUI
             base.OnEnable();
             m_ShouldRecalculateClipRects = true;
             ClipperRegistry.Register(this);
-            NewMaskUtil.Notify2DMaskStateChanged(this);
+            NewRect2DMaskUtil.Notify2DMaskStateChanged(this);
         }
 
 
@@ -75,14 +75,14 @@ namespace ReWriteUGUI
             m_Clippers.Clear();
             m_ClipTargets.Clear();
             ClipperRegistry.Unregister(this);
-            NewMaskUtil.Notify2DMaskStateChanged(this);
+            NewRect2DMaskUtil.Notify2DMaskStateChanged(this);
         }
 
         public void PerformClipping()
         {
             if (m_ShouldRecalculateClipRects)
             {
-                NewMaskUtil.GetRectMasksForClip(this, m_Clippers);
+                NewRect2DMaskUtil.GetRectMasksForClip(this, m_Clippers);
                 m_ShouldRecalculateClipRects = false;
             }
 

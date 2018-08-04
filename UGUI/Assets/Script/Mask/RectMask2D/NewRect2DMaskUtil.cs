@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace ReWriteUGUI
 {
-    public static class NewMaskUtil
+    public static class NewRect2DMaskUtil
     {
         public static void Notify2DMaskStateChanged(Component mask)
         {
@@ -67,8 +67,8 @@ namespace ReWriteUGUI
 
                 for (int j = 0; j < canvasComponents.Count; j++)
                 {
-                    if (canvasComponents[i].overrideSorting &&
-                        !IsDesendantOrSelf(canvasComponents[i].transform, targetMask.transform))
+                    if (canvasComponents[j].overrideSorting &&
+                        !IsDesendantOrSelf(canvasComponents[j].transform, targetMask.transform))
                     {
                         targetMask = null;
                         break;
