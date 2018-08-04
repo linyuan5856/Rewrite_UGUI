@@ -9,7 +9,8 @@ namespace ReWriteUGUI
     {
         public static void Notify2DMaskStateChanged(Component mask)
         {
-            var components = new List<Component>();
+            var components = NewListPool<Component>.Get();
+
             mask.GetComponentsInChildren(components);
             for (var i = 0; i < components.Count; i++)
             {
@@ -20,6 +21,8 @@ namespace ReWriteUGUI
                 if (toNotify != null)
                     toNotify.RecalculateClipping();
             }
+
+            NewListPool<Component>.Release(components);
         }
 
 
@@ -43,13 +46,10 @@ namespace ReWriteUGUI
         }
 
 
-        static readonly List<NewRectMask2D> rectMaskComponents = new List<NewRectMask2D>();
-        static readonly List<Canvas> canvasComponents = new List<Canvas>();
-
         public static NewRectMask2D GetRectMaskForClippable(IClippable clippable)
         {
-            rectMaskComponents.Clear();
-            canvasComponents.Clear();
+            var rectMaskComponents = NewListPool<NewRectMask2D>.Get();
+            var canvasComponents = NewListPool<Canvas>.Get();
             NewRectMask2D targetMask = null;
 
             clippable.rectTransform.GetComponentsInParent(false, rectMaskComponents);
@@ -78,6 +78,9 @@ namespace ReWriteUGUI
                 return targetMask;
             }
 
+            NewListPool<NewRectMask2D>.Release(rectMaskComponents);
+            NewListPool<Canvas>.Release(canvasComponents);
+
             return targetMask;
         }
 
@@ -86,6 +89,8 @@ namespace ReWriteUGUI
         {
             masks.Clear();
 
+            var rectMaskComponents = NewListPool<NewRectMask2D>.Get();
+            var canvasComponents = NewListPool<Canvas>.Get();
             clipper.GetComponentsInParent(false, rectMaskComponents);
 
             if (rectMaskComponents.Count > 0)
@@ -104,6 +109,9 @@ namespace ReWriteUGUI
                             rectMaskComponents[i].transform))
                         canAdd = false;
                 }
+
+                NewListPool<NewRectMask2D>.Release(rectMaskComponents);
+                NewListPool<Canvas>.Release(canvasComponents);
 
                 if (canAdd)
                     masks.Add(rectMaskComponents[i]);

@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 #if UNITY_EDITOR
 using System.Reflection;
+
 #endif
 
 namespace ReWriteUGUI
@@ -103,7 +104,7 @@ namespace ReWriteUGUI
             }
         }
 
-        protected CanvasRenderer canvasRenderer
+        public CanvasRenderer canvasRenderer
         {
             get
             {
@@ -134,11 +135,10 @@ namespace ReWriteUGUI
             }
         }
 
-        List<Canvas> list = new List<Canvas>();
 
         void CacheCanvas()
         {
-            list.Clear();
+            var list = NewListPool<Canvas>.Get();
             this.GetComponentsInParent(false, list);
 
             for (int i = 0; i < list.Count; i++)
@@ -149,6 +149,8 @@ namespace ReWriteUGUI
                     break;
                 }
             }
+
+            NewListPool<Canvas>.Release(list);
         }
 
         protected override void OnEnable()

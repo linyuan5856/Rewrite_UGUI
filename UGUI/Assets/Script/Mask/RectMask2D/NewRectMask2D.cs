@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ReWriteUGUI.ReWriteUGUI;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -100,7 +101,7 @@ namespace ReWriteUGUI
 
             foreach (IClippable clipTarget in m_ClipTargets)
             {
-                var maskable = clipTarget as MaskableGraphic;
+                var maskable = clipTarget as NewMaskableGraphic_RectMask2D;
                 if (maskable != null && !maskable.canvasRenderer.hasMoved && !clipRectChanged)
                     continue;
 
