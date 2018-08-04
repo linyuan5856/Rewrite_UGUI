@@ -10,8 +10,32 @@ namespace ReWriteUGUI
     {
         public class NewMaskableGraphic_RectMask2D : NewGraphic, IClippable
         {
-            [NonSerialized] private RectMask2D m_ParentMask;
+            protected NewMaskableGraphic_RectMask2D(){ }
+
+            [NonSerialized] private NewRectMask2D m_ParentMask;
             [NonSerialized] private bool m_Maskable = true;
+
+            private RectTransform m_RectTransfrom;
+
+            public RectTransform rectTransform
+            {
+                get
+                {
+                    if (m_RectTransfrom == null)
+                        m_RectTransfrom = this.GetComponent<RectTransform>();
+
+                    return m_RectTransfrom;
+                }
+
+                private set { m_RectTransfrom = value; }
+            }
+
+            readonly NewRectangularVertexClipper clipperutil = new NewRectangularVertexClipper();
+
+            private Rect rootCanvasRect
+            {
+                get { return clipperutil.GetCanvasRect(rectTransform, canvas); }
+            }
 
             public bool maskable
             {
@@ -21,26 +45,6 @@ namespace ReWriteUGUI
                     if (m_Maskable == value)
                         return;
                     m_Maskable = value;
-                }
-            }
-
-            readonly Vector3[] m_Corners = new Vector3[4];
-
-            private Rect rootCanvasRect
-            {
-                get
-                {
-                    rectTransform.GetWorldCorners(m_Corners);
-
-                    if (canvas)
-                    {
-                        Canvas rootCanvas = canvas.rootCanvas;
-                        for (int i = 0; i < 4; ++i)
-                            m_Corners[i] = rootCanvas.transform.InverseTransformPoint(m_Corners[i]);
-                    }
-
-                    return new Rect(m_Corners[0].x, m_Corners[0].y, m_Corners[2].x - m_Corners[0].x,
-                        m_Corners[2].y - m_Corners[0].y);
                 }
             }
 
@@ -85,12 +89,9 @@ namespace ReWriteUGUI
             }
 
 
-            public RectTransform rectTransform { get; private set; }
-
-
             private void UpdateClipParent()
             {
-                var newParent = ((maskable) && IsActive()) ? NewMaskUtil.GetRectMaskForClippable(this) : null;
+                NewRectMask2D newParent = ((maskable) && IsActive()) ? NewMaskUtil.GetRectMaskForClippable(this) : null;
 
                 if (m_ParentMask != null && (newParent != m_ParentMask || !newParent.IsActive()))
                 {
