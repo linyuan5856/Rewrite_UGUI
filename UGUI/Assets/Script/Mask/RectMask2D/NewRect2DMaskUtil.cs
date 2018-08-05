@@ -110,12 +110,14 @@ namespace ReWriteUGUI
                         canAdd = false;
                 }
 
-                NewListPool<NewRectMask2D>.Release(rectMaskComponents);
-                NewListPool<Canvas>.Release(canvasComponents);
 
                 if (canAdd)
                     masks.Add(rectMaskComponents[i]);
             }
+
+
+            NewListPool<NewRectMask2D>.Release(rectMaskComponents);
+            NewListPool<Canvas>.Release(canvasComponents);
         }
     }
 }

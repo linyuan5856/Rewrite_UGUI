@@ -1,22 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace ReWriteUGUI
 {
-	public class NewMaskableGraphic_Mask : MonoBehaviour
-	{
+    public class NewMaskableGraphic_Mask : UIBehaviour, IMaterialModifier
+    {
+        protected override void OnEnable()
+        {
+            base.OnEnable();
+        }
 
-		// Use this for initialization
-		void Start()
-		{
 
-		}
+        protected override void OnDisable()
+        {
+            base.OnDisable();
+        }
 
-		// Update is called once per frame
-		void Update()
-		{
-
-		}
-	}
+        public Material GetModifiedMaterial(Material baseMaterial)
+        {
+            return baseMaterial;
+        }
+    }
 }
