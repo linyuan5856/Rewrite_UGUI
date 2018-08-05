@@ -192,7 +192,7 @@ namespace ReWriteUGUI
             CanvasUpdateRegistry.RegisterCanvasElementForGraphicRebuild(this);
         }
 
-        protected void SetMaterialDirty()
+        public void SetMaterialDirty()
         {
             if (!IsActive())
                 return;
