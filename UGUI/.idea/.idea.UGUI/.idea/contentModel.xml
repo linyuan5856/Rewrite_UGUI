@@ -5,16 +5,27 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\Script" t="Include">
+        <e p="ADS" t="Include">
+          <e p="NewListpool.cs" t="Include" />
+          <e p="NewObjectPool.cs" t="Include" />
+        </e>
         <e p="Editor" t="Include">
           <e p="ToggleEditor.cs" t="Include" />
         </e>
         <e p="Mask" t="Include">
-          <e p="NewMask.cs" t="Include" />
-          <e p="NewMaskableGraphic_Mask.cs" t="Include" />
-          <e p="NewMaskableGraphic_RectMask2D.cs" t="Include" />
-          <e p="NewMaskUtil.cs" t="Include" />
-          <e p="NewRectangularVertexClipper.cs" t="Include" />
-          <e p="NewRectMask2D.cs" t="Include" />
+          <e p="RectMask2D" t="Include">
+            <e p="NewClipping.cs" t="Include" />
+            <e p="NewMaskableGraphic_RectMask2D.cs" t="Include" />
+            <e p="NewRect2DMaskUtil.cs" t="Include" />
+            <e p="NewRectangularVertexClipper.cs" t="Include" />
+            <e p="NewRectMask2D.cs" t="Include" />
+          </e>
+          <e p="StencilMask" t="Include">
+            <e p="NewMask.cs" t="Include" />
+            <e p="NewMaskableGraphic_Mask.cs" t="Include" />
+            <e p="NewMaskUtil.cs" t="Include" />
+            <e p="NewStencilMaterial.cs" t="Include" />
+          </e>
         </e>
         <e p="NewGraphic.cs" t="Include" />
         <e p="NewToggle.cs" t="Include" />

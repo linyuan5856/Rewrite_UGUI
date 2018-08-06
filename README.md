@@ -2,6 +2,8 @@
 
 >看五六遍不如自己撸一遍UGUI源码加深理解>
 
+`不准备实现的部分 Selectable Navigation`
+
 ## 结构
 
 ### Interactive Component
@@ -9,6 +11,8 @@
   * Toggle
 
   * ToggleGroup
+
+  * Button
 
 ### `Mask`
 
@@ -21,6 +25,8 @@
 ### Render
   
   * Grpahic
+
+  * RawImage
 
 ## RoadMap
 
