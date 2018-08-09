@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fbcfc8d-921f-41e5-8662-3317920ebbd8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scene/UI_Mask.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/UI_Mask.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UGUI/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UGUI/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UGUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,107 +17,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NewMask.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMask.cs">
+      <file leaf-file-name="NewRawImage.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/Render/NewRawImage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="525">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding>
-                <marker date="1533487284131" expanded="true" signature="6:115" ph="..." />
-                <marker date="1533487284131" expanded="true" signature="138:4939" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="300:4937" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="413:530" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="632:947" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="704:937" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="1037:1139" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="1286:1306" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="1349:1419" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="1463:1740" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="1535:1672" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="1785:2309" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="1858:2057" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="2377:4617" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="2663:2823" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="2921:3649" ph="{...}" />
-                <marker date="1533487284131" expanded="true" signature="4680:4923" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewStencilMaterial.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewStencilMaterial.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="90" column="42" lean-forward="true" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
-              <folding>
-                <marker date="1533486880411" expanded="false" signature="6:95" ph="..." />
-                <marker date="1533486880411" expanded="true" signature="118:6252" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="163:6250" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="200:645" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="706:2151" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="799:967" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="1020:1190" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="1245:1417" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="1476:1652" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="1712:1889" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="1942:2112" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="2388:2506" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="2702:5096" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="2964:3505" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="3380:3491" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="5152:5665" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="5273:5655" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="5447:5616" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="5704:5960" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="5765:5921" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="6029:6244" ph="{...}" />
-                <marker date="1533486880411" expanded="true" signature="6068:6234" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewMaskableGraphic_Mask.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskableGraphic_Mask.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-              <folding>
-                <marker date="1533487809490" expanded="true" signature="6:83" ph="..." />
-                <marker date="1533487809490" expanded="true" signature="106:2602" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="192:2600" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="474:767" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="539:757" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="811:939" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="985:1205" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="1273:2253" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="1369:1633" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="1761:2211" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="2295:2394" ph="{...}" />
-                <marker date="1533487809490" expanded="true" signature="2457:2587" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewMaskUtil.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskUtil.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-              <folding>
-                <marker date="1533487601120" expanded="true" signature="6:40" ph="..." />
-                <marker date="1533487601120" expanded="true" signature="63:2175" ph="{...}" />
-                <marker date="1533487601120" expanded="true" signature="94:2173" ph="{...}" />
-                <marker date="1533487601120" expanded="true" signature="169:714" ph="{...}" />
-                <marker date="1533487601120" expanded="true" signature="349:647" ph="{...}" />
-                <marker date="1533487601120" expanded="true" signature="791:1226" ph="{...}" />
-                <marker date="1533487601120" expanded="true" signature="1008:1154" ph="{...}" />
-                <marker date="1533487601120" expanded="true" signature="1311:2167" ph="{...}" />
-                <marker date="1533487601120" expanded="true" signature="1555:2072" ph="{...}" />
-                <marker date="1533487601120" expanded="true" signature="1682:1963" ph="{...}" />
-                <marker date="1533487601120" expanded="true" signature="1837:1945" ph="{...}" />
+                <marker date="1533544707142" expanded="false" signature="6:40" ph="..." />
+                <marker date="1533544707142" expanded="true" signature="63:1347" ph="{...}" />
+                <marker date="1533544707142" expanded="true" signature="107:1345" ph="{...}" />
+                <marker date="1533544707142" expanded="true" signature="245:1171" ph="{...}" />
+                <marker date="1533544707142" expanded="true" signature="395:1161" ph="{...}" />
+                <marker date="1533544707142" expanded="true" signature="532:1072" ph="{...}" />
+                <marker date="1533544707142" expanded="true" signature="1234:1332" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -126,18 +41,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskableGraphic_Mask.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/NewToggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskableGraphic_Mask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/RectMask2D/NewRectMask2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewStencilMaterial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewStencilMaterial.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D5E0DF5E-7F35-4E11-8A76-0CE5DB9B38F2/80/a39d6ea0/CompareFunction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Render/NewRawImage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D5E0DF5E-7F35-4E11-8A76-0CE5DB9B38F2/bb/957cd4ff/StencilOp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskUtil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/RectMask2D/NewRect2DMaskUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Editor/ToggleEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/NewGraphic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/NewToggleGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Interactive Component/NewButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,6 +75,8 @@
         <option value="$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMask.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskUtil.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskableGraphic_Mask.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Interactive Component/NewButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Render/NewRawImage.cs" />
       </list>
     </option>
   </component>
@@ -177,8 +92,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
-    <option name="width" value="2762" />
-    <option name="height" value="1798" />
+    <option name="width" value="2765" />
+    <option name="height" value="1799" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -189,6 +104,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="UGUI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -207,77 +136,11 @@
               <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="UGUI" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="UGUI" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="UGUI" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="UGUI" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="UGUI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="UGUI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="UGUI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Script" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="UGUI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Script" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Mask" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="UGUI (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Script" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Mask" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="StencilMask" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,11 +178,13 @@
       <workItem from="1533275450681" duration="10013000" />
       <workItem from="1533351381793" duration="3053000" />
       <workItem from="1533475687551" duration="8288000" />
+      <workItem from="1533538622763" duration="6148000" />
+      <workItem from="1533744097919" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21354000" />
+    <option name="totallyTimeSpent" value="28106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,7 +207,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.20773226" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25312296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19855358" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -394,31 +259,57 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Render/NewRawImage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <marker date="1533544707142" expanded="false" signature="6:40" ph="..." />
+            <marker date="1533544707142" expanded="true" signature="63:1347" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="107:1345" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="245:1171" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="395:1161" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="532:1072" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="1234:1332" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewStencilMaterial.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="90" column="42" lean-forward="true" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskableGraphic_Mask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskUtil.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/NewMaskableGraphic_RectMask2D.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/NewRectMask2D.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/NewRectangularVertexClipper.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/NewMaskUtil.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Editor/ToggleEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/NewToggleGroup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/NewToggle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Editor/ToggleEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/NewToggleGroup.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/NewToggle.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3BAAB807-C9E6-4A53-A6AC-8B27910CCA8C/f2/522145da/RectTransformUtility.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A7B213EE-4E11-43F1-AD95-705E2D5696C8/12/a2d4c7e3/IClippable.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/NewMask.cs" />
@@ -435,131 +326,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <marker date="1533475769576" expanded="false" signature="6:100" ph="..." />
-            <marker date="1533475769576" expanded="true" signature="123:3840" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="167:3838" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="241:786" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="420:719" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="869:1244" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="1063:1207" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="1328:2602" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="1667:2432" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="2068:2382" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="2246:2364" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="2701:3832" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="3130:3693" ph="{...}" />
-            <marker date="1533475769576" expanded="true" signature="3345:3595" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/RectMask2D/NewRectMask2D.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035">
-          <folding>
-            <marker date="1533406503347" expanded="true" signature="6:151" ph="..." />
-            <marker date="1533406503347" expanded="true" signature="174:4637" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="333:4635" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="999:1223" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="1025:1213" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="1255:1629" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="1281:1619" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="1665:1685" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="1729:1933" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="1979:2204" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="2243:3350" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="2299:2454" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="2705:2967" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="3029:3340" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="3406:3666" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="3725:3987" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="4048:4167" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="4227:4346" ph="{...}" />
-            <marker date="1533406503347" expanded="true" signature="4408:4621" ph="{...}" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1035" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/NewGraphic.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="188" column="28" lean-forward="true" selection-start-line="188" selection-start-column="28" selection-end-line="188" selection-end-column="28" />
-          <folding>
-            <marker date="1533487259840" expanded="false" signature="6:162" ph="..." />
-            <marker date="1533487259840" expanded="true" signature="193:9589" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="397:9587" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="1052:1404" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="1078:1394" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="1133:1343" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="1453:1941" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="1479:1739" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="1756:1931" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="1983:2220" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="2009:2210" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="2265:2550" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="2370:2540" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="2604:3035" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="2630:3025" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="3081:3309" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="3107:3299" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="3356:3579" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="3382:3569" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="3612:3780" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="3638:3770" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="3809:4227" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="3972:4169" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="4053:4155" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="4271:4374" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="4419:4615" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="4654:4817" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="4858:4996" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="5039:5227" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="5267:5455" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="5494:5731" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="5770:5927" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="5991:6548" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="6606:7222" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="6748:7212" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="6848:6988" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="7030:7170" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="7268:7288" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="7341:7361" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="7422:7604" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="7671:7814" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="7874:8129" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="8196:8586" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="8310:8576" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="8448:8562" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="8651:8755" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="8820:9326" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="8969:9316" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="9372:9455" ph="{...}" />
-            <marker date="1533487259840" expanded="true" signature="9496:9574" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskUtil.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <marker date="1533487601120" expanded="true" signature="6:40" ph="..." />
-            <marker date="1533487601120" expanded="true" signature="63:2175" ph="{...}" />
-            <marker date="1533487601120" expanded="true" signature="94:2173" ph="{...}" />
-            <marker date="1533487601120" expanded="true" signature="169:714" ph="{...}" />
-            <marker date="1533487601120" expanded="true" signature="349:647" ph="{...}" />
-            <marker date="1533487601120" expanded="true" signature="791:1226" ph="{...}" />
-            <marker date="1533487601120" expanded="true" signature="1008:1154" ph="{...}" />
-            <marker date="1533487601120" expanded="true" signature="1311:2167" ph="{...}" />
-            <marker date="1533487601120" expanded="true" signature="1555:2072" ph="{...}" />
-            <marker date="1533487601120" expanded="true" signature="1682:1963" ph="{...}" />
-            <marker date="1533487601120" expanded="true" signature="1837:1945" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/NewGraphic.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D5E0DF5E-7F35-4E11-8A76-0CE5DB9B38F2/bb/957cd4ff/StencilOp.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -574,80 +349,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMask.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewStencilMaterial.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
-          <caret line="90" column="42" lean-forward="true" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
-          <folding>
-            <marker date="1533486880411" expanded="false" signature="6:95" ph="..." />
-            <marker date="1533486880411" expanded="true" signature="118:6252" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="163:6250" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="200:645" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="706:2151" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="799:967" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="1020:1190" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="1245:1417" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="1476:1652" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="1712:1889" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="1942:2112" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="2388:2506" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="2702:5096" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="2964:3505" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="3380:3491" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="5152:5665" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="5273:5655" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="5447:5616" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="5704:5960" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="5765:5921" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="6029:6244" ph="{...}" />
-            <marker date="1533486880411" expanded="true" signature="6068:6234" ph="{...}" />
-          </folding>
+          <caret line="90" column="42" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskableGraphic_Mask.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
-          <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-          <folding>
-            <marker date="1533487809490" expanded="true" signature="6:83" ph="..." />
-            <marker date="1533487809490" expanded="true" signature="106:2602" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="192:2600" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="474:767" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="539:757" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="811:939" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="985:1205" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="1273:2253" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="1369:1633" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="1761:2211" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="2295:2394" ph="{...}" />
-            <marker date="1533487809490" expanded="true" signature="2457:2587" ph="{...}" />
-          </folding>
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMask.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Mask/StencilMask/NewMaskUtil.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="809">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Interactive Component/NewButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Render/NewRawImage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding>
-            <marker date="1533487284131" expanded="true" signature="6:115" ph="..." />
-            <marker date="1533487284131" expanded="true" signature="138:4939" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="300:4937" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="413:530" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="632:947" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="704:937" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="1037:1139" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="1286:1306" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="1349:1419" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="1463:1740" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="1535:1672" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="1785:2309" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="1858:2057" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="2377:4617" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="2663:2823" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="2921:3649" ph="{...}" />
-            <marker date="1533487284131" expanded="true" signature="4680:4923" ph="{...}" />
+            <marker date="1533544707142" expanded="false" signature="6:40" ph="..." />
+            <marker date="1533544707142" expanded="true" signature="63:1347" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="107:1345" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="245:1171" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="395:1161" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="532:1072" ph="{...}" />
+            <marker date="1533544707142" expanded="true" signature="1234:1332" ph="{...}" />
           </folding>
         </state>
       </provider>

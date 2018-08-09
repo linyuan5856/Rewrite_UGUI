@@ -4,13 +4,18 @@
     <e p="C:\Project\Personal\Rewrite_UGUI\UGUI" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Editor" t="Include">
+        <e p="ToggleEditor.cs" t="Include" />
+      </e>
       <e p="Assets\Script" t="Include">
         <e p="ADS" t="Include">
           <e p="NewListpool.cs" t="Include" />
           <e p="NewObjectPool.cs" t="Include" />
         </e>
-        <e p="Editor" t="Include">
-          <e p="ToggleEditor.cs" t="Include" />
+        <e p="Interactive Component" t="Include">
+          <e p="NewButton.cs" t="Include" />
+          <e p="NewToggle.cs" t="Include" />
+          <e p="NewToggleGroup.cs" t="Include" />
         </e>
         <e p="Mask" t="Include">
           <e p="RectMask2D" t="Include">
@@ -27,9 +32,10 @@
             <e p="NewStencilMaterial.cs" t="Include" />
           </e>
         </e>
-        <e p="NewGraphic.cs" t="Include" />
-        <e p="NewToggle.cs" t="Include" />
-        <e p="NewToggleGroup.cs" t="Include" />
+        <e p="Render" t="Include">
+          <e p="NewGraphic.cs" t="Include" />
+          <e p="NewRawImage.cs" t="Include" />
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
